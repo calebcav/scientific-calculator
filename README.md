@@ -1,4 +1,4 @@
-# ScientificCalculator (maven) ZCW
+# Scientific Calculator 
 
 
 ## Description
