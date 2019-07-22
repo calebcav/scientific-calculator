@@ -22,13 +22,12 @@ public class CoreFeatures {
 
     public void divide(double a){
 
-        try{
+        if (a== 0){
+            System.out.println("Cannot divide by Zero");
+        }
+        else {
             display.setCurrentNumber(display.getCurrentNumber() / a);
         }
-        catch (Exception e){
-            System.out.println("Cannot Divide by Zero");
-        }
-
     }
 
 

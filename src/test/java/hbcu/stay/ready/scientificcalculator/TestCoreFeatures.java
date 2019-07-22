@@ -57,12 +57,13 @@ public class TestCoreFeatures {
 
         CoreFeatures core = new CoreFeatures();
         core.display.setCurrentNumber(10);
-        core.divide(2);
+        core.divide(5);
         double actual = core.display.getCurrentNumber();
 
-        double expected = 5;
+        double expected = 2;
 
         Assert.assertEquals(actual, expected, 0.0);
+
     }
 
 
